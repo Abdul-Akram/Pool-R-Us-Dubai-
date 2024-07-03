@@ -1,0 +1,114 @@
+body{
+    background-image: url("assets/artem-verbo-Vc8jfmzWoFE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+
+.tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.tittle #main{
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.tittle #side{
+    font-family: 'Times New Roman', serif;
+    position: absolute;
+    right: 0;
+    margin: 10px; 
+    color: white; 
+    font-size: .8em;
+}
+.navbar {
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #302f2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    z-index: 1;
+}
+
+.navbar a {
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.box{
+    display: flex;
+    flex-direction:column;
+    align-items:baseline;
+    padding-top: 200px;
+
+}
+
+.box #red-box{
+    background-color: #9a0707;
+    display: block;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 20px;
+}
+
+.box #red-box a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin-right: 2px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
